@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Creepster');
+
+html {
+  background-color: pink;}
+body {
+  color: green;
+  font-family: "Creepster", Cursive;
+}
+#page{
+  width: 960px;
+  margin: 0px auto;
+}
+#logo{
+  text-align: center;
+}
+nav ul {
+  margin: 0px;
+}
+nav li {
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 120px;
+}
+nav li a{
+  color: black;
+  text-decoration: none;
+}
+nav li a:hover {
+  color: green;
+}
+.product {
+  width: 300px;
+  float: left;
+  margin: 10px;
+  height: 350px;
+}
+figure {
+  display: block;
+  width: 280px;
+height: 340px;
+margin: 0px;
+padding: 5px;
+text-align: center;
+ }
+ figure img {
+width: 270px;
+height: 300px;
+border: 2px solid powderblue;
+}
+figcaption{
+  color: black;
+}
+footer {
+  padding: 0px 0px 0px 20px;
+}
+img{
+  width: 100px;
+  height: 100px;
+}
